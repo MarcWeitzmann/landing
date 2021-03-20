@@ -1,0 +1,7 @@
+.banner {
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  color: #D08F73;
+  padding: 50px 0px;
+  min-height: 20vh;
+}

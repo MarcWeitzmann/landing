@@ -1,0 +1,47 @@
+/* Your card CSS file */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card-product {
+  color: #D08F73;
+  background-color: white;
+  width:250px;
+  text-align: left;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  border: 1px solid #D08F73;
+}
+
+.card-product img {
+  height: 100px;
+}
+
+.card-footer {
+  background-color: white;
+  padding: 32px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #D08F73;
+  margin: 8px 24px;
+}
+
+.social-icon:hover {
+  color: #F0E6DC;
+}
